@@ -1,0 +1,142 @@
+# Microsoft Developer Studio Generated Dependency File, included by scARM.mak
+
+..\src\main.cpp : \
+	"..\src\components\ALU\scALU.h"\
+	"..\src\components\barrelshifter\scBarrelShifter.h"\
+	"..\src\components\decoder\scDecoder.h"\
+	"..\src\components\mux\scPCMux.h"\
+	"..\src\components\Registers\scAddressRegister.h"\
+	"..\src\components\Registers\scRegisterFile.h"\
+	"..\src\core\scARMCore.h"\
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\main.h"\
+	"..\src\pipeline\scEX.h"\
+	"..\src\pipeline\scID.h"\
+	"..\src\pipeline\scIF.h"\
+	"..\src\pipeline\scMEM.h"\
+	"..\src\pipeline\scWB.h"\
+	"..\src\scTypes.h"\
+	"..\src\SoC\Mem\scMemory.h"\
+	"..\src\SoC\scARMSoC.h"\
+	
+
+..\src\components\Registers\scAddressRegister.cpp : \
+	"..\src\components\Registers\scAddressRegister.h"\
+	
+
+..\src\components\ALU\scALU.cpp : \
+	"..\src\components\ALU\scALU.h"\
+	
+
+..\src\Instructions\scARMBranch.cpp : \
+	"..\src\Instructions\scARMBranch.h"\
+	
+
+..\src\core\scARMCore.cpp : \
+	"..\src\core\scARMCore.h"\
+	
+
+..\src\Instructions\scARMDPI.cpp : \
+	"..\src\Instructions\scARMDPI.h"\
+	
+
+..\src\Instructions\scARMInstruction.cpp : \
+	"..\src\Instructions\scARMInstruction.h"\
+	
+
+..\src\Instructions\scARMLSI.cpp : \
+	"..\src\components\Registers\scRegisterFile.h"\
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\Instructions\scARMLSI.h"\
+	
+
+..\src\Instructions\scARMMCR.cpp : \
+	"..\src\Instructions\scARMMCR.h"\
+	
+
+..\src\Instructions\scARMMult.cpp : \
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\Instructions\scARMMult.h"\
+	
+
+..\src\SoC\scARMSoC.cpp : \
+	"..\src\SoC\scARMSoC.h"\
+	
+
+..\src\Instructions\scARMSWP.cpp : \
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\Instructions\scARMSWP.h"\
+	
+
+..\src\components\barrelshifter\scBarrelShifter.cpp : \
+	"..\src\components\barrelshifter\scBarrelShifter.h"\
+	
+
+..\src\components\booth\scBooth.cpp : \
+	"..\src\components\booth\scBooth.h"\
+	
+
+..\src\components\cache\scCache.cpp : \
+	"..\src\components\cache\scCache.h"\
+	
+
+..\src\Instructions\scCPInstruction.cpp : \
+	"..\src\Instructions\scCPInstruction.h"\
+	
+
+..\src\components\decoder\scDecoder.cpp : \
+	"..\src\components\barrelshifter\scBarrelShifter.h"\
+	"..\src\components\decoder\scDecoder.h"\
+	"..\src\components\Registers\scRegisterFile.h"\
+	"..\src\Instructions\scARMBranch.h"\
+	"..\src\Instructions\scARMDPI.h"\
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\Instructions\scARMLSI.h"\
+	
+
+..\src\pipeline\scEX.cpp : \
+	"..\src\pipeline\scEX.h"\
+	
+
+..\src\scException.cpp : \
+	"..\src\scException.h"\
+	
+
+..\src\pipeline\scID.cpp : \
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\pipeline\scID.h"\
+	
+
+..\src\pipeline\scIF.cpp : \
+	"..\src\pipeline\scIF.h"\
+	
+
+..\src\Instructions\scMCR.cpp : \
+	"..\src\Instructions\scARMInstruction.h"\
+	"..\src\Instructions\scMCR.h"\
+	
+
+..\src\pipeline\scMEM.cpp : \
+	"..\src\components\Registers\scRegisterFile.h"\
+	"..\src\pipeline\scMEM.h"\
+	
+
+..\src\SoC\Mem\scMemory.cpp : \
+	"..\src\SoC\Mem\scMemory.h"\
+	
+
+..\src\components\mux\scPCMux.cpp : \
+	"..\src\components\mux\scPCMux.h"\
+	
+
+..\src\components\Registers\scRegisterFile.cpp : \
+	"..\src\components\Registers\scRegisterFile.h"\
+	
+
+..\src\Instructions\scUnUsedInstruction.cpp : \
+	"..\src\Instructions\scUnUsedInstruction.h"\
+	
+
+..\src\pipeline\scWB.cpp : \
+	"..\src\pipeline\scWB.h"\
+	

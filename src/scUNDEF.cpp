@@ -1,0 +1,29 @@
+// scUNDEF.cpp: implementation of the scUNDEF class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "scUNDEF.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+scUNDEF::scUNDEF(uint32_t i)
+{
+
+}
+
+scUNDEF::~scUNDEF()
+{
+
+}
+const char* scUNDEF::kind_string = "UNDEF";
+const char* scUNDEF::kind()
+{
+  return kind_string;
+}
+
+uint32_t scUNDEF::A()
+{
+   return 0;
+}
