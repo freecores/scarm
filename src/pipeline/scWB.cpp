@@ -1,0 +1,24 @@
+// scWB.cpp: implementation of the scWB class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "scWB.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+
+
+scWB::~scWB()
+{
+
+}
+
+void scWB::entry()
+{
+  sc_time local_time = sc_time_stamp();
+  cout<<"WB time="<<local_time<<"--"<<endl;
+
+ // cout<<"Rd="<<hex<<in_Rd<<"  [Rd]="<<hex<<in_n_MEMtoWB<<endl;
+}
