@@ -91,71 +91,75 @@ SOURCE=..\src\main.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\Registers\scAddressRegister.cpp
+SOURCE=..\src\scAddressRegister.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\ALU\scALU.cpp
+SOURCE=..\src\scALU.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMBranch.cpp
+SOURCE=..\src\scARMBranch1.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\core\scARMCore.cpp
+SOURCE=..\src\scARMCore.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMDPI.cpp
+SOURCE=..\src\scARMDPI.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMInstruction.cpp
+SOURCE=..\src\scARMInstruction.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMLSI.cpp
+SOURCE=..\src\scARMLSI.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMMCR.cpp
+SOURCE=..\src\scARMMCR.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMMult.cpp
+SOURCE=..\src\scARMMult.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\SoC\scARMSoC.cpp
+SOURCE=..\src\scARMSoC.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMSWP.cpp
+SOURCE=..\src\scARMSWI.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\barrelshifter\scBarrelShifter.cpp
+SOURCE=..\src\scARMSWP.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\booth\scBooth.cpp
+SOURCE=..\src\scBarrelShifter.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\cache\scCache.cpp
+SOURCE=..\src\scBooth.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scCPInstruction.cpp
+SOURCE=..\src\scCache.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\decoder\scDecoder.cpp
+SOURCE=..\src\scCPInstruction.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scEX.cpp
+SOURCE=..\src\scDecoder.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\scEX.cpp
 # End Source File
 # Begin Source File
 
@@ -163,39 +167,47 @@ SOURCE=..\src\scException.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scID.cpp
+SOURCE=..\src\scID.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scIF.cpp
+SOURCE=..\src\scIF.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scMCR.cpp
+SOURCE=..\src\scMCR.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scMEM.cpp
+SOURCE=..\src\scMEM.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\SoC\Mem\scMemory.cpp
+SOURCE=..\src\scMemory.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\mux\scPCMux.cpp
+SOURCE=..\src\scMMU.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\Registers\scRegisterFile.cpp
+SOURCE=..\src\scPCMux.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scUnUsedInstruction.cpp
+SOURCE=..\src\scRegisterFile.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scWB.cpp
+SOURCE=..\src\scUART.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\scUnUsedInstruction.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\scWB.cpp
 # End Source File
 # End Group
 # Begin Group "Header Files"
@@ -207,75 +219,75 @@ SOURCE=..\src\main.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\Registers\scAddressRegister.h
+SOURCE=..\src\scAddressRegister.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\ALU\scALU.h
+SOURCE=..\src\scALU.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMBranch.h
+SOURCE=..\src\scARMBranch1.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\core\scARMCore.h
+SOURCE=..\src\scARMCore.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMDPI.h
+SOURCE=..\src\scARMDPI.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMInstruction.h
+SOURCE=..\src\scARMInstruction.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMLSI.h
+SOURCE=..\src\scARMLSI.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMMCR.h
+SOURCE=..\src\scARMMCR.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMMult.h
+SOURCE=..\src\scARMMult.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\SoC\scARMSoC.h
+SOURCE=..\src\scARMSoC.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMSWI.h
+SOURCE=..\src\scARMSWI.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scARMSWP.h
+SOURCE=..\src\scARMSWP.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\barrelshifter\scBarrelShifter.h
+SOURCE=..\src\scBarrelShifter.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\booth\scBooth.h
+SOURCE=..\src\scBooth.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\cache\scCache.h
+SOURCE=..\src\scCache.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scCPInstruction.h
+SOURCE=..\src\scCPInstruction.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\decoder\scDecoder.h
+SOURCE=..\src\scDecoder.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scEX.h
+SOURCE=..\src\scEX.h
 # End Source File
 # Begin Source File
 
@@ -283,31 +295,35 @@ SOURCE=..\src\scException.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scID.h
+SOURCE=..\src\scID.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scIF.h
+SOURCE=..\src\scIF.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scMCR.h
+SOURCE=..\src\scMCR.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scMEM.h
+SOURCE=..\src\scMEM.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\SoC\Mem\scMemory.h
+SOURCE=..\src\scMemory.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\mux\scPCMux.h
+SOURCE=..\src\scMMU.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\components\Registers\scRegisterFile.h
+SOURCE=..\src\scPCMux.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\scRegisterFile.h
 # End Source File
 # Begin Source File
 
@@ -315,15 +331,19 @@ SOURCE=..\src\scTypes.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\Instructions\scUnUsedInstruction.h
+SOURCE=..\src\scUART.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\pipeline\scWB.h
+SOURCE=..\src\scUnUsedInstruction.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\src\core\Vectors.h
+SOURCE=..\src\scWB.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\src\Vectors.h
 # End Source File
 # End Group
 # Begin Group "Resource Files"

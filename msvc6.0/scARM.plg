@@ -6,56 +6,79 @@
 --------------------Configuration: scARM - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "D:\TEMP\RSPDC.tmp" with contents
+Creating temporary file "g:\TEMP\RSP15E9.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "c:\systemc2.0\systemc-2.0\src" /I "c:\systemc2.0\systemc-2.0-MS2.0b3\src" /I "f:\cdrom1\scarm\src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/scARM.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
-"F:\cdrom1\scARM\src\Instructions\scARMBranch.cpp"
+"G:\CVS for NT\scARM\src\main.cpp"
+"G:\CVS for NT\scARM\src\scAddressRegister.cpp"
+"G:\CVS for NT\scARM\src\scALU.cpp"
+"G:\CVS for NT\scARM\src\scARMBranch1.cpp"
+"G:\CVS for NT\scARM\src\scARMCore.cpp"
+"G:\CVS for NT\scARM\src\scARMDPI.cpp"
+"G:\CVS for NT\scARM\src\scARMInstruction.cpp"
+"G:\CVS for NT\scARM\src\scARMLSI.cpp"
+"G:\CVS for NT\scARM\src\scARMMult.cpp"
+"G:\CVS for NT\scARM\src\scARMSoC.cpp"
+"G:\CVS for NT\scARM\src\scARMSWI.cpp"
+"G:\CVS for NT\scARM\src\scARMSWP.cpp"
+"G:\CVS for NT\scARM\src\scBarrelShifter.cpp"
+"G:\CVS for NT\scARM\src\scBooth.cpp"
+"G:\CVS for NT\scARM\src\scCache.cpp"
+"G:\CVS for NT\scARM\src\scDecoder.cpp"
+"G:\CVS for NT\scARM\src\scEX.cpp"
+"G:\CVS for NT\scARM\src\scID.cpp"
+"G:\CVS for NT\scARM\src\scIF.cpp"
+"G:\CVS for NT\scARM\src\scMCR.cpp"
+"G:\CVS for NT\scARM\src\scMEM.cpp"
+"G:\CVS for NT\scARM\src\scMemory.cpp"
+"G:\CVS for NT\scARM\src\scPCMux.cpp"
+"G:\CVS for NT\scARM\src\scRegisterFile.cpp"
+"G:\CVS for NT\scARM\src\scWB.cpp"
 ]
-Creating command line "cl.exe @D:\TEMP\RSPDC.tmp" 
-Creating temporary file "D:\TEMP\RSPDD.tmp" with contents
+Creating command line "cl.exe @g:\TEMP\RSP15E9.tmp" 
+Creating temporary file "g:\TEMP\RSP15EA.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/scARM.pdb" /debug /machine:I386 /out:"Debug/scARM.exe" 
-.\Debug\main.obj
-.\Debug\scAddressRegister.obj
-.\Debug\scALU.obj
-.\Debug\scARMBranch.obj
-.\Debug\scARMCore.obj
-.\Debug\scARMDPI.obj
-.\Debug\scARMInstruction.obj
-.\Debug\scARMLSI.obj
-.\Debug\scARMMCR.obj
-.\Debug\scARMMult.obj
-.\Debug\scARMSoC.obj
-.\Debug\scARMSWP.obj
-.\Debug\scBarrelShifter.obj
-.\Debug\scBooth.obj
-.\Debug\scCache.obj
-.\Debug\scCPInstruction.obj
-.\Debug\scEX.obj
-.\Debug\scException.obj
-.\Debug\scID.obj
-.\Debug\scIF.obj
-.\Debug\scMCR.obj
-.\Debug\scPCMux.obj
-.\Debug\scRegisterFile.obj
-.\Debug\scUnUsedInstruction.obj
-.\Debug\scWB.obj
+".\Debug\main.obj"
+".\Debug\scAddressRegister.obj"
+".\Debug\scALU.obj"
+".\Debug\scARMBranch1.obj"
+".\Debug\scARMCore.obj"
+".\Debug\scARMDPI.obj"
+".\Debug\scARMInstruction.obj"
+".\Debug\scARMLSI.obj"
+".\Debug\scARMMCR.obj"
+".\Debug\scARMMult.obj"
+".\Debug\scARMSoC.obj"
+".\Debug\scARMSWI.obj"
+".\Debug\scARMSWP.obj"
+".\Debug\scBarrelShifter.obj"
+".\Debug\scBooth.obj"
+".\Debug\scCache.obj"
+".\Debug\scCPInstruction.obj"
+".\Debug\scDecoder.obj"
+".\Debug\scEX.obj"
+".\Debug\scException.obj"
+".\Debug\scID.obj"
+".\Debug\scIF.obj"
+".\Debug\scMCR.obj"
+".\Debug\scMEM.obj"
+".\Debug\scMemory.obj"
+".\Debug\scMMU.obj"
+".\Debug\scPCMux.obj"
+".\Debug\scRegisterFile.obj"
+".\Debug\scUART.obj"
+".\Debug\scUnUsedInstruction.obj"
+".\Debug\scWB.obj"
 "C:\SystemC2.0\systemc-2.0\msvc60\systemc\Debug\systemc.lib"
 "C:\SystemC2.0\systemc-2.0-MS2.0b3\msvc60\sc_ms\Debug\sc_ms.lib"
-.\Debug\scMemory.obj
-.\Debug\scMEM.obj
-.\Debug\scDecoder.obj
 ]
-Creating command line "link.exe @D:\TEMP\RSPDD.tmp"
+Creating command line "link.exe @g:\TEMP\RSP15EA.tmp"
 <h3>Output Window</h3>
 Compiling...
-scARMBranch.cpp
-Linking...
+scARMBranch1.cpp
+cl.exe terminated at user request.
 
-
-
-<h3>Results</h3>
-scARM.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
