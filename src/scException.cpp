@@ -1,0 +1,22 @@
+// scException.cpp: implementation of the scException class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "scException.h"
+#include<stdlib.h>
+#include <string.h>
+
+#define BASIC_ERROR  "Unknown exception"
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+scException::scException()
+{
+  m_strError = strdup(BASIC_ERROR);
+}
+
+scException::~scException()
+{
+ free(m_strError);
+}
